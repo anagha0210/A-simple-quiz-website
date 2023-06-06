@@ -1,0 +1,45 @@
+.a {
+	color:purple;
+	font-family: Times-New-Roman,sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 65px;
+}
+.fcontainer {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background: #ffeef5;
+	justify-content:center;
+	align-items:center;	
+	flex-direction: column;
+}
+.anc{
+	border: 2px solid purple;
+	padding: 5px 5px;
+	margin: 5px 5px;
+	background-color: white;
+	color: purple;
+	width:200px;
+	height: 35px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 300; <!-- not working -->
+}
+.anc:hover{
+	font-size: 35px;
+	font-weight: 300;
+	transform:scaleX(1.5);
+	box-shadow: 5px 5px ;
+	transition: 2s ease 0s;
+}
+/* didnt work
+#loader{
+	border: 4px solid white;
+	border-radius: 50%;
+	border-top: 1px solid purple;
+	width: 660px;
+	height: 590px;
+}*/
